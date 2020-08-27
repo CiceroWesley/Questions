@@ -1,6 +1,5 @@
 def is_isogram(string):
   stringls = string.lower().strip()
-<<<<<<< HEAD
   retorno=1
   for i in range(0,len(stringls)):
     if stringls[i] != " " and stringls[i]!= "-":
